@@ -1,0 +1,452 @@
+/* Projects Section */
+#projects {
+  padding: 80px 10%;
+  background-color: #f9fafb;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: #222;
+}
+
+/* Grid Layout */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Card Design */
+.project-card {
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+}
+
+/* Project Icon   42,15  */
+.project-icon {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+/* Title */
+.project-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+/* Description */
+.project-card p {
+  font-size: 22px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+/* Tech Stack */
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.tech-stack span {
+  background: #eef2ff;
+  color: #3730a3;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* Links */
+.project-links a {
+  font-size: 20px;
+  margin: 0 8px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.project-links a:hover {
+  transform: scale(1.2);
+}
+
+/* Internship Card Highlight */
+/* Internship Highlight */
+.internship-card {
+  border-top: 4px solid #22c55e;
+}
+
+/* Badge   */
+.badge {
+  background: #dcfce7;
+  color: #166534;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Company Name */
+.internship-card h4 {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Duration */
+.duration {
+  font-size: 15px;
+  color: #777;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Internship Points */
+.internship-points {
+  text-align: left;
+  padding-left: 18px;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.internship-points li {
+  margin-bottom: 6px;
+}
+
+/* Certificate Button */
+.project-links button {
+  padding: 8px 16px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.project-links button:hover {
+  background: #4338ca;
+}
+
+/* MODAL BACKGROUND */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PDF Viewer */
+.certificate-frame {
+  width: 80%;
+  height: 85vh;
+  border-radius: 10px;
+  border: none;
+  background: #fff;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.internship-card {
+  border-top: 4px solid #22c55e;
+}
+
+.badge {
+  background: #dcfce7;
+  color: #166534;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.duration {
+  font-size: 13px;
+  color: #777;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.internship-points {
+  text-align: left;
+  font-size: 14px;
+  color: #444;
+  padding-left: 18px;
+  margin-bottom: 15px;
+}
+
+.project-links button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+.project-links button:hover {
+  background: #4338ca;
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificate-frame {
+  width: 80%;
+  height: 85vh;
+  background: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Card Base */
+.project-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  max-width: 350px;
+}
+
+/* Internship Highlight */
+.internship-card {
+  border-top: 4px solid #22c55e;
+}
+
+
+/* Button */
+.project-links button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #4f46e5;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.project-links button:hover {
+  background: #4338ca;
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Certificate Viewer */
+.certificate-frame {
+  width: 80%;
+  height: 85vh;
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.centered {
+  width: 50%;       /* or any width you want */
+  margin: 0 auto;   /* centers horizontally */
+  text-align: center; /* optional: centers text inside */
+}
+
+/* Card Base */
+.project-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  max-width: 350px;
+}
+
+/* Internship Highlight */
+.internship-card {
+  border-top: 4px solid #22c55e;
+}
+
+/* Badge */
+.badge {
+  background: #dcfce7;
+  color: #166534;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Icon */
+.project-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Company */
+h4 {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+/* Duration */
+.duration {
+  font-size: 20px;
+  color: #777;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Points */
+.internship-points {
+  text-align: left;
+  font-size: 20px;
+  color: #444;
+  padding-left: 18px;
+  margin-bottom: 15px;
+}
+
+.internship-points li {
+  margin-bottom: 6px;
+}
+
+/* Tech Stack */
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tech-stack span {
+  background: #eef2ff;
+  color: #3730a3;
+  font-size: 20px;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* Button */
+.project-links button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #4f46e5;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.project-links button:hover {
+  background: #4338ca;
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Certificate Viewer */
+.certificate-frame {
+  width: 80%;
+  height: 85vh;
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;          /* full viewport height */
+  padding: 20px;          /* optional padding */
+  box-sizing: border-box;
+}
+
+.inner {
+  width: 400px;            /* increase width as needed */
+  height: 300px;           /* increase height as needed */
+  background-color: #f0f0f0; /* optional: for visibility */
+  text-align: center;      
+  padding: 20px;           /* inner spacing */
+  box-sizing: border-box;  /* include padding in size */
+  border-radius: 10px;     /* optional: rounded corners */
+}
